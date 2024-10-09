@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    line-height: 2;
+    padding: 5px;
+}
+/* Decorative properties */
+body {
+  background-color: lightblue;
+
+}
+
+h1{
+    background-color: lightgreen;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1; 
+    }
+
+  p, a{
+    position: relative;
+    top: 56px;
+
+  }
+.big-box{
+    position: relative;
+    top: 56px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    
+}
+
+.small-box{
+    /* 2. Toggle the position: absolute line below and refresh the absolute position page in your browser.  Note what happens to the box. */
+    
+    /* position: absolute; */
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 2;
+}
+/* 3. Scroll the absolute position page and note the behavior of the small box */
+/* 4. Change the positioning for the small box to position: fixed;  Refresh the page and note the changes */
+/* 5. Scroll the page and note any differences */
+
+/*
+  Artificially boost the size of the
+  "body", so that the frame can be
+  scrolled.
+*/
+html {
+  height: 100%;
+}
+body {
+  height: 150%;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    line-height: 2;
+    padding: 5px;
+}
+/* Decorative properties */
+body {
+  background-color: lightblue;
+
+}
+
+h1{
+    background-color: lightgreen;
+    text-align: center;
+    /* 2.  toggle the line of code below to add fixed positioning  and refresh to observe what happens */
+    /* position: fixed; */
+    
+    /* 4.  set top to 0px here */
+    
+
+    /* 7.  set right and left to 0px here to stretch the h1 header */ 
+    
+    /* 9.  add z-index here and set it to 1 */
+    
+    }
+  p, a{
+      /* 5.  add relative positioning and set top to 56px here */
+      
+
+
+  }
+
+
+/*
+  Artificially boost the size of the
+  "body", so that the frame can be
+  scrolled.
+*/
+html {
+  height: 100%;
+}
+body {
+  height: 150%;
+}
